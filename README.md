@@ -31,7 +31,7 @@ You can inherit all its methods and attributes using:
 var inherits = require('trustfund').inherits;
 
 var Child = function Child() {
-
+    Parent.call(this);
 } inherits(Child, Parent);
 ```
 
