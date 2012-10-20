@@ -1,0 +1,33 @@
+{
+    "name": "trustfund",
+    "version": "0.1.0",
+    "description": "Trustfund is a better kind of object inheritance.",
+    "author": "Nathan Aschbacher <nathan@coradine.com>",
+    "contributors": [ 
+        { "name": "Nathan Aschbacher", "email": "nathan@coradine.com" }
+    ],
+    "license": "MIT",
+    "main": "index.js",
+    "scripts": {
+        "test": "./node_modules/.bin/mocha"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/Coradine/trustfund.git"
+    },
+    "dependencies": {
+    },
+    "devDependencies": {
+        "mocha": "*",
+        "should": "*"
+    },
+    "keywords": [
+        "inherits",
+        "inheritance",
+        "inherit",
+        "trustfund"
+    ],
+    "engines": {
+        "node": ">=0.6.x"
+    }
+}
