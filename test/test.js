@@ -48,7 +48,7 @@ describe("Trustfund inheritance Test Suite", function() {
 
     it("should give a Child all the knowledge and wealth of its Parent.", function(done) {
         var Child = function Child(init_with) {
-            Parent.call(this, init_with);
+            Child.super_.call(this, init_with);
         }; inherits(Child, Parent);
 
         Child.class_attr.should.eql('class_attr');

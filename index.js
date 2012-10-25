@@ -23,6 +23,6 @@
 // SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 exports.inherits = function(Child, Parent) {
-    Child.__proto__ = Parent;
+    Child.__proto__ = Child.super_ = Parent;
     Child.prototype.__proto__ = Parent.prototype;
 };
